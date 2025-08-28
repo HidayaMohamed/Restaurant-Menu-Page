@@ -1,5 +1,5 @@
 body{
-    background-color: #add8e6;
+    background-color: #86b7c7;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -7,10 +7,8 @@ h1 {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: #13374ddc;
+    text-align: center;
 }
-.names , .price {
-    width: 150px;
-    display: flex;
 
 }
 #main h2 {
@@ -23,10 +21,12 @@ h1 {
 }
 #desserts h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: calc();
+    font-style: calc;
+}
+.menu-items {
+    display: flex;
 }
 
-}
 
 
     
