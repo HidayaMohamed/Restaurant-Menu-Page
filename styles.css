@@ -21,6 +21,7 @@ div.menu-items {
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 #drinks {
     display: flex;
@@ -30,7 +31,7 @@ div.menu-items {
 #desserts {
     display: flex;
     align-items: center;
-    gap: 56px;
+    gap: 20px;
 }
 .menu-items {
     padding: 20px;
@@ -45,20 +46,24 @@ footer {
     font-size: x-large;
     background-color: bisque;
 }
-#main h2 {
-    font-size: 150%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#drinks h2 {
-    font-size: 150%;
-    font-family: inherit;
-}
+
 .item-name:hover{
     background-color: rgb(12, 45, 73);
    color: lightgray;
     
 }
-    
+.first-h2 {
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-h2 {
+font-size: 200%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.third-h2 {
+    font-size: 180%;
+    font-style: italic;
+}
     
 
 
